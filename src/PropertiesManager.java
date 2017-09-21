@@ -3,6 +3,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+/**
+ * This class reads a Properties object on creation.
+ * It provides methods for getting the total number of requests and url to send requests to.
+ */
 public class PropertiesManager {
 
     private static final String PROPERTIES_FILE_PATH = "config.properties";

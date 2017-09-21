@@ -1,8 +1,11 @@
 import java.io.IOException;
 
+/**
+ * Main entry to the program. Initiates sending of the group of requests predefined number of times.
+ */
 public class Main {
 
-    private static final int RUNS = 5;
+    private static final int RUNS = 10;
 
     public static void main(String[] args) {
         PropertiesManager propertiesManager;
